@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/c48e630e-4779-4ec0-b1d3-b4936ad97a8e)# 7nm-Internship
+# 7nm-Internship
+
 
 nfet symbol in xschem
 
