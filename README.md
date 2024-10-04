@@ -15,6 +15,8 @@ Generated Netlist from xschem
 
 ![image](https://github.com/user-attachments/assets/32fad9e1-f204-4c1f-adc1-1e55f3f7349d)
 
+
+
 Spice Code
 
 ** sch_path: /home/comp/Desktop/chip_design/nfetsym.sch
@@ -116,6 +118,13 @@ pre_osdi /home/hprcse/Documents/test/bsimcmg.osdi
 **** end user architecture code
 .end
 
+
+Output of nfet
+
+![image](https://github.com/user-attachments/assets/f1a7cd44-3099-4fba-82b3-cad6993dfb02)
+
+
+![image](https://github.com/user-attachments/assets/87c4a8af-b3f0-4606-a679-8ae9c8515421)
 
 
 
