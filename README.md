@@ -111,7 +111,7 @@ plot id
 ************************************************************
 **)
 .control
-pre_osdi /home/hprcse/Documents/test/bsimcmg.osdi
+pre_osdi /home/comp/Desktop/chip_design/asap_7nm_Xshem/bsimcmg.osdi
 .endc
 
 
