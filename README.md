@@ -126,6 +126,14 @@ Output of nfet
 
 ![image](https://github.com/user-attachments/assets/87c4a8af-b3f0-4606-a679-8ae9c8515421)
 
+Inverter Schematic
+
+![image](https://github.com/user-attachments/assets/0d1eeef2-63ab-4539-8aec-2ca792a2a8af)
+
+Inverter VTC Characteristics
+
+![image](https://github.com/user-attachments/assets/b0071656-fe3e-4f62-9f1d-9aaa66ae4f39)
+
 
 
 
