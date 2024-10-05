@@ -135,6 +135,16 @@ Output of nfet
 
 ![image](https://github.com/user-attachments/assets/87c4a8af-b3f0-4606-a679-8ae9c8515421)
 
+Transient Analysis of an Inverter
+
+Inverter Schematic
+
+![image](https://github.com/user-attachments/assets/63dd8b83-a5ad-40e4-8880-a768736f0f19)
+
+Spice Code of the simulated characteristics
+
+
+
 Inverter Schematic
 
 ![image](https://github.com/user-attachments/assets/0d1eeef2-63ab-4539-8aec-2ca792a2a8af)
