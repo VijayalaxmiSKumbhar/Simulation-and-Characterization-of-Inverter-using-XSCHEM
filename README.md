@@ -17,19 +17,28 @@ Generated Netlist from xschem
 
 
 
+
 Spice Code
 
 ** sch_path: /home/comp/Desktop/chip_design/nfetsym.sch
+
 **.subckt nfetsym
+
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
+
 R1 VDD nfet_out 1k m=1
+
 V1 nfet_in GND 0
+
 V2 VDD GND 3
+
 **** begin user architecture code
 
 .dc v1 0 0.7 1m v2 0 0.7 0.2
+
 .control
 run
+
 set xbrushwidth=3
 let vd = vdd-nfet_out
 let id=vd/1000
