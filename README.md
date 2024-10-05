@@ -143,6 +143,11 @@ Inverter Schematic
 
 Spice Code of the simulated characteristics
 
+Simulation Characteristics
+
+![image](https://github.com/user-attachments/assets/9cf10d9e-1d9b-48ce-af34-282f4a1261ea)
+
+
 
 
 Inverter Schematic
