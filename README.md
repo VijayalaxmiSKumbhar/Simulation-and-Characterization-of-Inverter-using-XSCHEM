@@ -501,6 +501,13 @@ Inverter VTC Characteristics
 
 ![image](https://github.com/user-attachments/assets/b0071656-fe3e-4f62-9f1d-9aaa66ae4f39)
 
+Gain characteristics of the inverter
+
+![image](https://github.com/user-attachments/assets/2a032fd7-2d7f-4299-ad96-7ed8292f1255)
+
+![image](https://github.com/user-attachments/assets/26179e53-7341-449b-ba12-b9b32a78a33d)
+
+
 
 
 
