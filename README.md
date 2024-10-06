@@ -139,7 +139,8 @@ Transient Analysis of an Inverter
 
 Inverter Schematic
 
-![image](https://github.com/user-attachments/assets/63dd8b83-a5ad-40e4-8880-a768736f0f19)
+![image](https://github.com/user-attachments/assets/bb0f9216-38d4-4f11-a5cd-5cf51ab2d38c)
+
 
 Spice Code of the simulated characteristics
 
