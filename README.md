@@ -507,6 +507,15 @@ Gain characteristics of the inverter
 
 ![image](https://github.com/user-attachments/assets/26179e53-7341-449b-ba12-b9b32a78a33d)
 
+Plot gain nfet_out
+
+![image](https://github.com/user-attachments/assets/addb617e-6af7-4cc9-972d-a76dd97bcf91)
+
+Measuring the Values of 
+Vil, Vih, Vol, Voh
+
+![image](https://github.com/user-attachments/assets/f2d9f3e1-190c-4a00-ab29-b4b66c90e49a)
+
 
 
 
