@@ -1,4 +1,22 @@
-# 7nm-Internship
+Simulation and Characterization of Inverter using asap 7nm-technology
+
+Tools Used
+
+XSCHEM
+NGSPICE
+
+XSCHEM
+Xschem is a schematic capture and design tool for electronics, primarily used for creating and simulating electronic circuits. 
+
+Installation Steps
+
+Dependencies: Ensure that you have the necessary development tools and libraries. You may need to install the following packages:
+        gcc
+        make
+        libgtk-3-dev
+        libglib2.0-dev
+        libglibmm-2.4-dev
+        libgdkmm-3.0-dev
 
 
 nfet symbol in xschem
