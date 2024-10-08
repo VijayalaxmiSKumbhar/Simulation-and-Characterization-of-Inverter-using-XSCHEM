@@ -563,9 +563,11 @@ Power Analysis of Inverter
 
 Power Dissipation is categorized into two types
 
-Static Power Dissipation
+Static Power Dissipation: Device is not under operation
 
-Dynamic Power Dissipation
+Dynamic Power Dissipation: Device is under operation
+
+Total average power dissipation without a load capacitance
 
 
 
