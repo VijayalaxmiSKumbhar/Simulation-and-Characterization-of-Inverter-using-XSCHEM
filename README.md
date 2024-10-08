@@ -1,16 +1,17 @@
-Simulation and Characterization of Inverter using asap 7nm-technology
+# Simulation and Characterization of Inverter using asap 7nm
 
-Tools Used
+# Tools Used
 
-XSCHEM
-NGSPICE
++ XSCHEM
++ NGSPICE
 
-XSCHEM
+# XSCHEM
+
 Xschem is a schematic capture and design tool for electronics, primarily used for creating and simulating electronic circuits. 
 
-Installation Steps
+# Installation Steps
 
-Dependencies: Ensure that you have the necessary development tools and libraries. You may need to install the following packages:
+## Dependencies: Ensure that you have the necessary development tools and libraries. You may need to install the following packages:
         gcc
         make
         libgtk-3-dev
@@ -19,24 +20,24 @@ Dependencies: Ensure that you have the necessary development tools and libraries
         libgdkmm-3.0-dev
 
 
-nfet symbol in xschem
+# nfet symbol in xschem
 
 ![image](https://github.com/user-attachments/assets/ddcd90fc-bfc3-4911-bb84-a364e5101f51)
 
 
-Schematic using xschem
+# Schematic using xschem
 
 
 ![image](https://github.com/user-attachments/assets/b41242bf-f9fe-4d61-844b-370345444ed9)
 
-Generated Netlist from xschem
+# Generated Netlist from xschem
 
 ![image](https://github.com/user-attachments/assets/32fad9e1-f204-4c1f-adc1-1e55f3f7349d)
 
 
 
 
-Spice Code
+# Spice Code
 
 ``` ** sch_path: /home/comp/Desktop/chip_design/nfetsym.sch
 
@@ -150,16 +151,18 @@ pre_osdi /home/comp/Desktop/chip_design/asap_7nm_Xshem/bsimcmg.osdi
 
 
 
-Output of nfet
+# Output of nfet
 
 ![image](https://github.com/user-attachments/assets/f1a7cd44-3099-4fba-82b3-cad6993dfb02)
 
 
 ![image](https://github.com/user-attachments/assets/87c4a8af-b3f0-4606-a679-8ae9c8515421)
 
-Transient Analysis of an Inverter
+# Transient Analysis of an Inverter
 
-Inverter Schematic
+## Transient analysis is essential for understanding how the inverter responds to changes in input signals or load conditions over time, particularly during the periods of switching.
+
+# Inverter Schematic
 
 ![image](https://github.com/user-attachments/assets/bb0f9216-38d4-4f11-a5cd-5cf51ab2d38c)
 
@@ -339,18 +342,18 @@ pre_osdi /home/comp/Desktop/chip_design/asap_7nm_Xschem/bsimcmg.osdi
 ```
 
 
-Simulation Characteristics
+# Simulation Characteristics
 
 ![image](https://github.com/user-attachments/assets/9cf10d9e-1d9b-48ce-af34-282f4a1261ea)
 
 
 
 
-Inverter Schematic
+# Inverter Schematic in xschem
 
 ![image](https://github.com/user-attachments/assets/0d1eeef2-63ab-4539-8aec-2ca792a2a8af)
 
-Spice Code of the Simulated Characteristics
+# Spice Code of the Simulated Characteristics
 
 ``` ** sch_path: /home/comp/Desktop/chip_design/inv.sch
 **.subckt inv
@@ -525,27 +528,27 @@ pre_osdi /home/comp/Desktop/chip_design/bsimcmg.osdi
 
 ```
 
-Inverter VTC Characteristics
+# Inverter VTC Characteristics
 
 ![image](https://github.com/user-attachments/assets/b0071656-fe3e-4f62-9f1d-9aaa66ae4f39)
 
-Gain characteristics of the inverter
+# Gain characteristics of the inverter
 
 ![image](https://github.com/user-attachments/assets/2a032fd7-2d7f-4299-ad96-7ed8292f1255)
 
 ![image](https://github.com/user-attachments/assets/26179e53-7341-449b-ba12-b9b32a78a33d)
 
-Plot gain nfet_out
+# Plot gain nfet_out
 
 ![image](https://github.com/user-attachments/assets/addb617e-6af7-4cc9-972d-a76dd97bcf91)
 
-Measuring the Values of 
+# Measuring the Values of 
 Vil, Vih, Vol, Voh
 
 ![image](https://github.com/user-attachments/assets/f2d9f3e1-190c-4a00-ab29-b4b66c90e49a)
 
 
-Delay Analysis of Inverter Schematic
+# Delay Analysis of Inverter Schematic
 
 tphl (propagation delay from high to low)
 
@@ -559,11 +562,11 @@ tp=(tphl+tplh)/2
 
 ![image](https://github.com/user-attachments/assets/65bf5cdb-060b-49e6-84ff-9e76143aa64e)
 
-Rise Time(tr)
+## Rise Time(tr) : The time taken for the output to rise from 10% to 90% of the supply voltage (VDD) when transitioning from a low input (0) to a high input (1).
 
 ![image](https://github.com/user-attachments/assets/1717e858-538d-46ee-90a8-b739730fc882)
 
-Fall time (tf)
+## Fall time (tf) : The time taken for the output to fall from 90% to 10% of V_DD when transitioning from a high input (1) to a low input (0).
 
 ![image](https://github.com/user-attachments/assets/fb370107-90ce-4275-8bd4-390d0ef3e33c)
 
