@@ -143,7 +143,11 @@ pre_osdi /home/comp/Desktop/chip_design/asap_7nm_Xshem/bsimcmg.osdi
 
 
 **** end user architecture code
-.end ```
+.end
+
+```
+
+
 
 
 Output of nfet
