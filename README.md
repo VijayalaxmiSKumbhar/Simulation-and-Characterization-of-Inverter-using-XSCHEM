@@ -167,7 +167,7 @@ Inverter Schematic
 Spice Code of the simulated characteristics
 
 
-** sch_path: /home/comp/Desktop/chip_design/inv_tran.sch
+``` ** sch_path: /home/comp/Desktop/chip_design/inv_tran.sch
 **.subckt inv_tran
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
 Xpfet1 nfet_out nfet_in VDD VDD asap_7nm_pfet l=7e-009 nfin=14
@@ -175,7 +175,7 @@ V1 nfet_in GND pulse(0 0.7 20p 10p 10p 20p 500p 1)
 V2 VDD GND 0.7
 **** begin user architecture code
 
-.tran 0.1 100p
+.tran 0.1p 100p
 .control
 run
 set xbrushwidth=3
@@ -336,6 +336,8 @@ pre_osdi /home/comp/Desktop/chip_design/asap_7nm_Xschem/bsimcmg.osdi
 
 **** end user architecture code
 .end
+```
+
 
 Simulation Characteristics
 
@@ -350,7 +352,7 @@ Inverter Schematic
 
 Spice Code of the Simulated Characteristics
 
-** sch_path: /home/comp/Desktop/chip_design/inv.sch
+``` ** sch_path: /home/comp/Desktop/chip_design/inv.sch
 **.subckt inv
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
 Xpfet1 nfet_out nfet_in VDD VDD asap_7nm_pfet l=7e-009 nfin=14
@@ -520,6 +522,8 @@ pre_osdi /home/comp/Desktop/chip_design/bsimcmg.osdi
 
 **** end user architecture code
 .end
+
+```
 
 Inverter VTC Characteristics
 
