@@ -537,7 +537,7 @@ Vil, Vih, Vol, Voh
 ![image](https://github.com/user-attachments/assets/f2d9f3e1-190c-4a00-ab29-b4b66c90e49a)
 
 
-Measuring tpHL and tpLH
+Delay Analysis of Inverter Schematic
 
 tphl (propagation delay from high to low)
 
@@ -547,6 +547,25 @@ tplh (propagation delay from low to high)
 
 ![image](https://github.com/user-attachments/assets/8242b503-86eb-44e0-9cd4-eba04876b912)
 
+tp=(tphl+tplh)/2
+
+![image](https://github.com/user-attachments/assets/65bf5cdb-060b-49e6-84ff-9e76143aa64e)
+
+Rise Time(tr)
+
+![image](https://github.com/user-attachments/assets/1717e858-538d-46ee-90a8-b739730fc882)
+
+Fall time (tf)
+
+![image](https://github.com/user-attachments/assets/fb370107-90ce-4275-8bd4-390d0ef3e33c)
+
+Power Analysis of Inverter
+
+Power Dissipation is categorized into two types
+
+Static Power Dissipation
+
+Dynamic Power Dissipation
 
 
 
