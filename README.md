@@ -38,7 +38,7 @@ Generated Netlist from xschem
 
 Spice Code
 
-** sch_path: /home/comp/Desktop/chip_design/nfetsym.sch
+``` ** sch_path: /home/comp/Desktop/chip_design/nfetsym.sch
 
 **.subckt nfetsym
 
@@ -143,7 +143,7 @@ pre_osdi /home/comp/Desktop/chip_design/asap_7nm_Xshem/bsimcmg.osdi
 
 
 **** end user architecture code
-.end
+.end ```
 
 
 Output of nfet
