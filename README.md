@@ -162,6 +162,7 @@ Inverter Schematic
 
 Spice Code of the simulated characteristics
 
+
 ** sch_path: /home/comp/Desktop/chip_design/inv_tran.sch
 **.subckt inv_tran
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
@@ -536,6 +537,15 @@ Vil, Vih, Vol, Voh
 ![image](https://github.com/user-attachments/assets/f2d9f3e1-190c-4a00-ab29-b4b66c90e49a)
 
 
+Measuring tpHL and tpLH
+
+tphl (propagation delay from high to low)
+
+tplh (propagation delay from low to high)
+
+![image](https://github.com/user-attachments/assets/c6c189f7-fa7d-4754-b71d-2b44202ae25b)
+
+![image](https://github.com/user-attachments/assets/8242b503-86eb-44e0-9cd4-eba04876b912)
 
 
 
