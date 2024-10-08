@@ -543,16 +543,20 @@ pre_osdi /home/comp/Desktop/chip_design/bsimcmg.osdi
 ![image](https://github.com/user-attachments/assets/addb617e-6af7-4cc9-972d-a76dd97bcf91)
 
 # Measuring the Values of 
-Vil, Vih, Vol, Voh
++ VIL: max input voltage for logic low
++ VIH: min input voltage for logic high
++ VOL: max output voltage for logic low
++ VOH: min output voltage for logic high
 
 ![image](https://github.com/user-attachments/assets/f2d9f3e1-190c-4a00-ab29-b4b66c90e49a)
 
 
 # Delay Analysis of Inverter Schematic
 
-tphl (propagation delay from high to low)
+* tphl (propagation delay from high to low): This is the time it takes for the output of the inverter to transition from a high logic level (1) to a low logic level (0) after the input transitions from a low to a high input (0 to 1).
 
-tplh (propagation delay from low to high)
+* tplh (Propagation Delay Low to High): This is the time it takes for the output of the inverter to transition from a low logic level (0) to a high logic level (1) after the input transitions from a high to a low input (1 to 0).
+
 
 ![image](https://github.com/user-attachments/assets/c6c189f7-fa7d-4754-b71d-2b44202ae25b)
 
@@ -570,17 +574,25 @@ tp=(tphl+tplh)/2
 
 ![image](https://github.com/user-attachments/assets/fb370107-90ce-4275-8bd4-390d0ef3e33c)
 
-Power Analysis of Inverter
+# Power Analysis of Inverter
 
-Power Dissipation is categorized into two types
+## Power Dissipation is categorized into two types
 
-Static Power Dissipation: Device is not under operation
+* Static Power Dissipation: Device is not under operation.
+   This power is consumed due to leakage currents when the inverter is not switching.
+   Leakage can occur in both PMOS and NMOS transistors. It includes subthreshold leakage, gate oxide leakage, etc.
 
-Dynamic Power Dissipation: Device is under operation
+* Dynamic Power Dissipation: Device is under operation. This power consumption occurs during the charging and discharging of the load capacitance at the output.
 
-Total average power dissipation without a load capacitance
+# Total average power dissipation without a load capacitance
 
 ![image](https://github.com/user-attachments/assets/0f12ce69-18f6-4892-9a5c-f7ec923b3bb6)
+
+
+![image](https://github.com/user-attachments/assets/311c81f1-0615-4059-bcea-e7a6f114cf6b)
+
+|Sr. no|W (Width)pmos|L (Length)pmos|(W/L Ratio)pmos|W (Width)nmos|L (Length)nmos|(W/L Ratio)nmos|Threshold Voltage (Vth)|Drain Current (Id)|Gate Capacitance (Cg)|Power Consumption (P)|Propagation Delay (t_pd) (ps)|Gain (Av)|Noise Margin (NM)|Transconductance (gm)|Frequency (f)|Output Resistance (Ro)|
+
 
 
 
