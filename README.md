@@ -589,7 +589,7 @@ tp=(tphl+tplh)/2
 ![image](https://github.com/user-attachments/assets/0f12ce69-18f6-4892-9a5c-f7ec923b3bb6)
 
 
-|Sr. no|W (Width)pmos|L (Length)pmos|(W/L Ratio)pmos|W (Width)nmos|L (Length)nmos|(W/L Ratio)nmos|Threshold Voltage (Vth)|Drain Current (Id)|Gate Capacitance (Cg)|Power Consumption (P)|Propagation Delay (t_pd) (ps)|Gain (Av)|Noise Margin (NM)|Transconductance (gm)|Frequency (f)|Output Resistance (Ro)|
+|Sr. no| W (Width)pmos| L (Length)pmos| (W/L Ratio)pmos| W (Width)nmos| L (Length)nmos|(W/L Ratio)nmos|Threshold Voltage (Vth)|Drain Current (Id)|Gate Capacitance (Cg)|Power Consumption (P)|Propagation Delay (t_pd) (ps)|Gain (Av)|Noise Margin (NM)|Transconductance (gm)|Frequency (f)|Output Resistance (Ro)|
 
 
 
