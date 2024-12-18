@@ -589,7 +589,7 @@ tp=(tphl+tplh)/2
 ![image](https://github.com/user-attachments/assets/0f12ce69-18f6-4892-9a5c-f7ec923b3bb6)
 
 
-|Sr. no. | W (Width)pmos | 
+
 
 
 
